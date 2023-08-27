@@ -21,7 +21,7 @@ class CreateContactTest extends TestCase
             "email" => $email,
             "phone_number" => fake()->phoneNumber(),
             "desired_budget" => fake()->numberBetween(100, 10000),
-            "message" => "Interested in your services."
+            "message" => "Potential Lead Created."
         ]);
 
         $this->assertDatabaseHas('contacts', [

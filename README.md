@@ -31,19 +31,31 @@ Step 3: Run Seed, to create default user.
 
 `php artisan db:seed`
 
-Step 4: Create a build for vite by using below command, this will create a build folder inside Public.
+Step 4: Run to install npm components.
+
+`npm install`
+
+Step 5: Create a build for vite by using below command, this will create a build folder inside Public.
 
 `npm run build`
 
-Step 5: Run the vite script to compress files runtime.
+Step 6: Run the vite script to compress files runtime.
 
 `npm run dev`
 
-Step 6: To run the Laravel Project on Browser, run this command in a new terminal tab, along with the previous command.
+Step 7: To run the Laravel Project on Browser, run this command in a new terminal tab, along with the previous command.
 
 `php artisan serve`
 
 
+## Unit Test Cases
 
+Below are some of the commands for Unit testing.
 
+Commad 1: This command is use to create potential lead
 
+`php artisan test --filter CreateContactTest`
+
+Commad 2: This command is use to export potential lead
+
+`php artisan test --filter ExportContactTest`
